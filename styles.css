@@ -53,7 +53,7 @@
 }
 
 .storyborder{
-  border: double 3px  transparent;
+  border: double 2px  transparent;
   border-radius: 100%;
   background-image: linear-gradient(white, rgb(255, 255, 255)),
                     linear-gradient(to left, rgb(225, 9, 110), gold);
@@ -62,7 +62,7 @@
 }
 
 .storybordercf{
-  border: double 3px transparent;
+  border: double 2px transparent;
   border-radius: 100%;
   background-image: linear-gradient(white, rgb(255, 255, 255)),
                     linear-gradient(to left, rgb(45, 230, 8), rgb(80, 223, 13));
