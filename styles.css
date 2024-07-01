@@ -1,0 +1,107 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.btn-light{
+  background-color: white;
+  border-color: white;
+  padding: 10px 8px;
+  margin-bottom: 9px;
+}
+
+.btn-light:hover{
+  background-color: rgba(238, 238, 238, 0.905);
+  border-color: transparent;
+}
+
+.msgno{
+  position:absolute;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(244, 14, 56);
+  padding: 1px 6px;
+  border-radius: 100%;
+  margin-bottom: 2.7vh;
+  margin-left: 0.7vw;
+  border: solid ;
+}
+.msgno2{
+  position:absolute;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(244, 14, 56);
+  padding: 1px 6px;
+  border-radius: 40%;
+  margin-bottom: 2.7vh;
+  margin-left: 0.7vw;
+  border: solid ;
+}
+.storyimg{
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 100% ;
+
+}
+.storyimgp{
+  border: solid 2px rgba(115, 115, 115, 0.189);
+  border-radius: 100% ;
+
+}
+
+.storyborder{
+  border: double  transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, rgb(255, 255, 255)),
+                    linear-gradient(to left, rgb(225, 9, 110), gold);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.storybordercf{
+  border: double  transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, rgb(255, 255, 255)),
+                    linear-gradient(to left, rgb(45, 230, 8), rgb(80, 223, 13));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.scard a {
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+  font-size: 0.75rem;
+  font-weight:600;
+}
+
+.scard a:hover{
+  color: rgb(84, 84, 168);
+}
+.scardt a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  font-weight:600;
+}
+
+.scardt a:hover{
+  color: rgb(149, 149, 149);
+}
+
+.credits a {
+  text-decoration: none;
+}
+
+.pimg{
+  width: 27.5vw;
+  height: 34.375vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  position: relative;
+  top: -10px;
+}
