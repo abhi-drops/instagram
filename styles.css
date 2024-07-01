@@ -105,3 +105,45 @@
   position: relative;
   top: -10px;
 }
+
+.like{
+  cursor: pointer;
+}
+.like:hover{
+  color: grey;
+}
+
+.storyscroll{
+  overflow-x: hidden;
+}
+
+.speaker{
+  position: relative;
+  bottom: -32.375vw;
+  left: 25.5vw;
+  color: white;
+  background-color: rgb(53, 53, 53);
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px){
+  .storyscroll{
+    overflow-x: scroll;
+    padding-left: 325px;
+
+  }
+
+  .pimg{
+    height: 112.5vw;
+    width: 90vw;
+  }
+
+  .speaker{
+    bottom: -102vw;
+  left:80vw;
+  }
+}
